@@ -1,5 +1,5 @@
 # 使用node.js來建置
-FROM node:18 AS bulid
+FROM node:18 AS build
 
 WORKDIR /app
 COPY package.json package-lock.json ./
