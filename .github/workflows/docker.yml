@@ -21,12 +21,12 @@ jobs:
 
       - name: 🏗️ 建立 Docker 映像檔
         run: |
-          docker build -t your-dockerhub-username/vue-app .
+          docker build -t ricky4869/vue-app .
 
       - name: 🏷️ 標記並推送至 Docker Hub
         run: |
-          docker tag your-dockerhub-username/vue-app your-dockerhub-username/vue-app:latest
-          docker push your-dockerhub-username/vue-app:latest
+          docker tag ricky4869/vue-app ricky4869/vue-app:latest
+          docker push ricky4869/vue-app:latest
 
 #DOCKER_USERNAME & DOCKER_PASSWORD
 #需要到 GitHub Repository -> Settings -> Secrets 新增：
